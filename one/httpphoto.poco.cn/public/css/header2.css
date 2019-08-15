@@ -1,0 +1,53 @@
+
+.one{width:8rem};
+.tow{width:12.5rem};
+ul>a{
+    color:#666666;
+    
+}
+.lbj:hover{
+    color:#ffffff;
+    background-color:#4ecdc4;
+    text-decoration:none;
+}
+.ft{
+    font-size:16px;
+    color:#666
+}
+a{color:#5a5a5a;}
+a:hover{
+    color:#ffffff;
+    background-color:#4ecdc4;
+     text-decoration:none; 
+     
+} 
+
+.nav-linkl:hover{
+    color:#ffffff;
+    background-color:#5a5a5a;
+    text-decoration:none;
+}
+.navbar-nav1 {
+      /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column; 
+ flex-direction: column;*/
+     padding-left: 0;
+    margin-bottom: 0; 
+    list-style: none;
+  }
+  .nav-linkl{
+    color:#fff;
+    display: block;
+    font-size:12px;
+    background-color:#4ecdc4;
+  }
+  /* 大屏 */
+  @media screen and (min-width:992px){};
+  /* 中屏 */
+  @media screen and (min-width:768px) and (max-width:991px){};
+  /* 小屏 */
+  @media screen and (max-width:767px){}; 

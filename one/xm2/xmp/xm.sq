@@ -1,0 +1,72 @@
+set nuames utf8;
+drop database if exists xmp;
+create database xmp charset=utf8;
+use login;
+登录
+
+注册页
+create table login(
+    id int PRIMARY KEY AUTO_INCREMENT,
+    uemail varchar(30),
+    uname varchar(12),
+    upwd varchar(12),
+    upwd2 varchar(12)
+    );
+insert into login values(1,"mk@163com","mk","1234","1234");
+insert into login values(2,"dd@163com","dd","123","123");
+SELECT * FROM `login` WHERE `uemail` = ? AND `upwd` = ? ORDER BY `uemail` DESC
+
+
+SELECT uname ,upwd FROM login;
+
+
+create table indexm(id int PRIMARY KEY AUTO_INCREMENT,title varchar(10),kgs varchar(5),size varchar(15),count int,down int,info int,txt varchar(10),titl varchar(15),times varchar(15),count2 int,down2 int,info2 int);
+create table indexm(mg varchar(64),mg2 varchar(64));
+insert into indexm values(1,"EVA软木纸","不祥","600*900mm",7965,2,5,"国外设计品牌","斗鸡眼","2016-02-16",7965,2,5);
+insert into indexm values(2,"37原色纸","110g","787*1092mm",7965,2,5,"为自己单位设计的作品","viojjdfj","2016-03-11",7965,2,5);
+insert into indexm values(3,"云宣","128g","1100*800mm",7965,2,5,"智利dksjsd凸版名片","墨迹的喵星人","2017-01-17",7965,2,5);
+insert into indexm values(4,"蜡文纸","116g","788*1091mm",7965,2,5,"林芝印象","读者","2016-02-22",7965,2,5);
+insert into indexm values(5,"37色树纸","110g","787*1092mm",7965,2,5,"盒子","大度","2017-07-25",7965,2,5);
+insert into indexm values(6,"卡基亚纸","151g","788*1091mm",7965,2,5,"pressefreiheit创意时尚","pingstudio","2016-05-04",7965,2,5);
+insert into indexm values(7,"124色系列变色皮","220g","1.37*50m",7965,2,5,"云南","昆明新道文化","2016-10-22",7965,2,5);
+insert into indexm values(8,"E陶瓷纸","128g","600*900mm",7965,2,5,"不干胶标签","雪莲花","2016-01-12",7965,2,5);
+insert into indexm values(9,"Y62系列变色皮","220g","61.37*50m",7965,2,5,"爱不释手书刊","派克文化","2019-05-14",7965,2,5);
+insert into indexm values(10,"帕拉文纸","110g","787*1092mm",7965,2,5,"台湾阿里山","浓色调","2016-01-12",7965,2,5);
+insert into indexm values(11,"卡布奇纸","110g","787*1092mm",7965,2,5,"优秀设计","龙卷风","2016-01-28",7965,2,5);
+insert into indexm values(12,"新五彩纸卡密.欧普兰","116g","788*1091mm",7965,2,5,"艺术","中嘉设计","2016-05-21",7965,2,5);
+
+添加数据
+UPDATE `indexm` SET `mg2` = 'tu1/13.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 1;
+UPDATE `indexm` SET `mg2` = 'tu1/14.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 2;
+UPDATE `indexm` SET `mg2` = 'tu1/15.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 3;
+UPDATE `indexm` SET `mg2` = 'tu1/16.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 4;
+UPDATE `indexm` SET `mg2` = 'tu1/17.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 5;
+UPDATE `indexm` SET `mg2` = 'tu1/18.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 6;
+UPDATE `indexm` SET `mg2` = 'tu1/19.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 7;
+UPDATE `indexm` SET `mg2` = 'tu1/20.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 8;
+UPDATE `indexm` SET `mg2` = 'tu1/21.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 9;
+UPDATE `indexm` SET `mg2` = 'tu1/22.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 10;
+UPDATE `indexm` SET `mg2` = 'tu1/23.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 11;
+UPDATE `indexm` SET `mg2` = 'tu1/24.jpg', `mg3` = 'img5/4e17f1a6-c66e-4d14-927a-67d615208437-small.png', `mg4` = 'img5/icon_entpr_users.png' WHERE `indexm`.`id` = 12;
+
+
+select*from indexm ;
+
+
+create table index2(txt varchar(10),titl varchar(15),time varchar(15),count2 int,down2 int,info2 int);
+insert into index2 values("国外设计品牌","斗鸡眼","2016-02-16",7965,2,5);
+insert into index2 values("为自己单位设计的作品","viojjdfj","2016-03-11",7965,2,5);
+insert into index2 values("智利dksjsd凸版名片","墨迹的喵星人","2017-01-17",7965,2,5);
+insert into index2 values("林芝印象","读者","2016-02-22",7965,2,5);
+insert into index2 values("盒子","大度","2017-07-25",7965,2,5);
+insert into index2 values("pressefreiheit创意时尚","pingstudio","2016-05-04",7965,2,5);
+insert into index2 values("云南","昆明新道文化","2016-10-22",7965,2,5);
+insert into index2 values("不干胶标签","雪莲花","2016-01-12",7965,2,5);
+insert into index2 values("爱不释手书刊","派克文化","2019-05-14",7965,2,5);
+insert into index2 values("台湾阿里山","浓色调","2016-01-12",7965,2,5);
+insert into index2 values("优秀设计","龙卷风","2016-01-28",7965,2,5);
+insert into index2 values("艺术","中嘉设计","2016-05-21",7965,2,5);
+select*from index2;
+SELECT * FROM indexm where id!=0 ORDER BY id;
+
+select*from indexm where id!=0 order by id;

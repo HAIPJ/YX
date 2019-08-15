@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/budget.css">
+<link rel="stylesheet" href="css/footer.css">
+<body>
+    <header id="header"></header>
+    <main class="zhu">
+        <div class="container">
+        <div class="bud">
+        <div class="bt">
+            <ul>
+                <li>预算</li>
+            </ul> 
+        </div>
+        </div>
+        <!-- 导航栏 -->
+        <div class="budg">
+            <div class="bud-nav">
+            <ul>
+                <li  >
+                    <img src="" alt="">
+                    <span data-toggle="tab">宣传单</span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span>手提袋</span>
+                </li> 
+                <li id="clik">
+                    <div class="dropdown">
+                    <img src="" alt="">
+                    <span data-trigger="dropdown" >简装书 </span>
+                    </div>
+                    <div class="tbr " > 
+                        <table class="tabl" >
+                            <tr >
+                                <td >封面</td>
+                                <td>封面(带劲口)</td>
+                            </tr>
+                            <tr>
+                                <td>内页</td>
+                                <td>扉页(前单扉)</td>
+                            </tr>
+                            <tr>
+                                <td>腰条</td>
+                                <td>函套(书封套)</td>
+                            </tr>
+                            <tr>
+                                <td>副封</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+                    
+                
+                
+                <li>
+                    <img src="" alt="">
+                    <span>精装书</span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span>骑马钉书</span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span>信封</span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span>文件夹</span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span>文件袋</span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span>邀请函</span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span>红包</span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span>CD套</span>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <span>档案盒</span>
+                </li>
+            </ul>
+            </div>
+            <!-- 规格 -->
+            <div class="total">
+                <div class="prize">   
+                <img src="img3/cal_first_step.png" alt="">
+                <div class="supp">
+                    <img src=" img3/cal_param_set_normal.png" alt="">
+                    <a href="">运算参数</a>
+                </div>
+                <div class="supp">
+                    <img src="img3/cal_type_what.png" alt="">
+                    <a href="">物料示意图</a>
+                </div>  
+                </div>
+                <div class="count"> 
+                <div >
+                    <div>宣传单</div>
+                    <div>展开尺寸</div>
+                </div>
+                <div class="count-num">
+                    <span class="sign">*</span>
+                    <input type="text" class="in"placeholder="长度">
+                    <div class="posi">
+                        <em class="emm">mm</em>
+                    </div>
+                    <span class="ride">X</span>
+                    <span class="sign">*</span>
+                    <input type="text" class="in" placeholder="高度">
+                    <div class="posi">
+                    <em class="emm2">mm</em></div>
+                    <input type="button" placeholder="常用" class="common">
+                </div> 
+               
+                </div>
+                <div class="print">
+                <div class="printtext">是否印刷</div>
+                <input type="button" class="file">
+                <div class="pull">
+                    <div class="pull-down">
+                        <!-- 下拉 -->
+                        <select name="" id="memu">
+                            <option value="1">单</option>
+                            <option value="2">双</option>
+                        </select>
+                    </div>
+                    <span>面</span>
+                    <div class="pull-down">
+                        <select name="" id="memu">
+                            <option value="1">单</option>
+                            <option value="2">四</option>
+                        </select>
+                    </div>
+                    <span>色+</span>
+                    <div class="pull-down">
+                        <select name="" id="memu">
+                            <option value="1">无</option>
+                            <option value="2">1</option>
+                            <option value="2">2</option>
+                            <option value="2">3</option>
+                            <option value="2">4</option>
+                            <option value="2">5</option>
+                            <option value="2">6</option>
+                            <option value="2">7</option>
+                            <option value="2">8</option>
+                            <option value="2">9</option>
+                        </select>
+                    </div>
+                    <span>专色</span>
+                </div>
+                </div>
+                <div class="size">
+                <div class="printtext">采用纸张</div>
+                <span class="size-te">（默认正度和大度规格比对运算）</span>
+                <div class="below">
+                    <input type="button" class="spinner" placeholder="系统默认规格">
+                </div>
+                </div>
+                <div class="system">
+                <div>
+                    <div>平张</div>
+                    <div>卷筒</div> 
+                </div>
+                <div class="count-num">
+                    <span class="sign1">*</span>
+                    <input type="text" class="in"placeholder="长度">
+                    <div class="posi1">
+                        <em class="emm1">mm</em>
+                    </div>
+                    <span class="ride1">X</span>
+                    <span class="sign1">*</span>
+                    <input type="text" class="in" placeholder="高度">
+                    <div class="posi1">
+                    <em class="emm3">mm</em></div>
+                    <input type="button" placeholder="常用" class="common1">
+                </div> 
+                <div>
+                    <input type="button" placeholder="纹理方向" class="dire">
+                </div>
+                <div class="grain">
+                    <div class="grain-form">
+                        <span class="grain-tex">设计物料纹理</span>
+                        <div class="side">
+                            <form action="">
+                                <input type="radio" name="figure"id="1" value="">
+                                <span class="from-text1">平行于长边</span>
+                                <input type="radio" name="figure"id="2" value="">
+                                <span class="from-text2">平行于短边</span>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="grain-form">
+                        <span class="grain-tex">采用纸张纹理</span>
+                        <div class="side">
+                            <form action="">
+                                <input type="radio" name="figure"id="1" value="">
+                                <span class="from-text1">平行于长边</span>
+                                <input type="radio" name="figure"id="2" value="">
+                                <span class="from-text2">平行于短边</span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="nextstep"></div>
+                <div class="reset"></div>
+                <div class="budgetl"></div>
+            </div>
+            <!-- 演示预算 -->
+            <div class="inform">
+                <div>
+                    <input type="text" class="back">
+                </div>
+                <div class="coll">
+                    <div>
+                        <div>纸张价格</div>
+                        <div>252x52</div>
+                    </div>
+                    <div>
+                        <img src="img3/cal_tonprice_select_normal.png" alt="">
+                        <img src="img3/cal_tonprice_selected.png" alt="">  
+                    </div>
+                    <span class="col1">*</span>
+                    <input type="text" placeholder="张价">
+                    <span class="col2">元/张</span>
+                </div>
+                 <div class="made">
+                    <div>成品数量</div>
+                    <span class="made1">*</span>
+                    <input type="text" placeholder="请输入">
+                    <span class="made2">份</span>
+                </div>
+                <div class="craft">
+                    <div>采用常见工艺</div>
+                    <div>
+                        <form action="">
+                            <input type="checkbox" name="figure"id="1" value="">
+                            <span class="from-text1">折页</span>
+                            <input type="checkbox" name="figure"id="2" value="">
+                            <span class="from-text2">模切</span>
+                            <input type="checkbox" name="figure"id="2" value="">
+                            <span class="from-text2">UV</span>
+                         </form> 
+                         <form action="">
+                            <input type="checkbox" name="figure"id="2" value="">
+                            <span class="from-text2">凹凸</span>
+                            <input type="checkbox" name="figure"id="2" value="">
+                            <span class="from-text2">热压</span>
+                            <input type="checkbox" name="figure"id="2" value="">
+                            <span class="from-text2">点线</span>
+                        </form>
+                        <form action="">
+                            <input type="checkbox" name="figure"id="2" value="">
+                            <span class="from-text2">烫金</span>
+                            <input type="checkbox" name="figure"id="2" value="">
+                            <span class="from-text2">丝网印刷</span>
+                            <input type="checkbox" name="figure"id="2" value="">
+                            <span class="from-text2">覆膜</span>
+                        </form>
+                    </div> 
+                </div>
+                <div class="nextst"></div>
+                <div class="reset"></div>
+            </div>
+            <!-- 预算 -->
+            <div class="cost">
+                <div class="revamap"></div>
+                <div class="chunk">
+                    <div class="mach1">
+                        <div id="mach">采用 四色八开机</div>
+                        <img class="recommend"src="./img3/cal_result_recommend.png" alt="">
+                    </div>
+                    <div class="pric2">
+                        <div id="pri">fgg</div>
+                        <div class="unit">元</div>
+                    </div>
+                    <div class="minu">
+                        <img src="./img3/cal_detail_compose_normal.png" alt="">
+                    </div>
+                </div>
+                <div class="chunk1">
+                    <div class="mach1">
+                        <div id="mach">采用 四色八开机</div>
+                        <img class="recommend"src="./img3/cal_result_recommend.png" alt="">
+                    </div>
+                    <div class="pric2">
+                        <div id="pri">fgg</div>
+                        <div class="unit">元</div>
+                    </div>
+                    <div class="minu">
+                        <img src="./img3/cal_detail_compose_normal.png" alt="">
+                    </div>
+                </div>
+                <div class="chunk">
+                    <div class="mach1">
+                        <div id="mach">采用 四色八开机</div>
+                        <img class="recommend"src="./img3/cal_result_recommend.png" alt="">
+                    </div>
+                    <div class="pric2">
+                        <div id="pri">fgg</div>
+                        <div class="unit">元</div>
+                    </div>
+                    <div class="minu">
+                        <img src="./img3/cal_detail_compose_normal.png" alt="">
+                    </div>
+                </div>
+                <div class="chunk1">
+                    <div class="mach1">
+                        <div id="mach">采用 四色八开机</div>
+                        <img class="recommend"src="./img3/cal_result_recommend.png" alt="">
+                    </div>
+                    <div class="pric2">
+                        <div id="pri">fgg</div>
+                        <div class="unit">元</div>
+                    </div>
+                    <div class="minu">
+                        <img src="./img3/cal_detail_compose_normal.png" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer id="foot"></footer>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/header.js"></script>
+<script src="js/budget.js"></script>
+<script src="js/footer.js"></script>
+
+
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var li={
+			sname:"mak",
+			sage:22,
+			sex:1,
+			inter:function(){
+			console.log(`l'm ${this.sname},l'm${this.sage},l'm${this.sex}`);}
+		}
+		function clone(obj){
+		var newObj={};
+		for (var name in obj ){
+			newObj[name]=obj[name];
+		}
+		return newObj;
+		}
+		var li1=li;
+		console.log(li);
+		console.log(li1);
+		console.log(li==li1);
+	</script>
+</body>
+</html>

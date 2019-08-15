@@ -1,0 +1,147 @@
+*{
+        /* box-sizing: border-box; */
+        margin:0;
+        padding:0;
+       
+    }
+    body{
+        background-color:#dededc;
+    }
+    .logi{
+        width:1100px;
+        margin:0 auto;
+    }
+    .tabs{ 
+        list-style:none;
+         padding:0 ;
+        background:#dededc;
+        text-align: center;
+    }
+    .tabs a{
+      text-decoration:none;
+      color:#000;
+      /* padding:6px 12px; */
+      display:block;
+      background-color:#eee;
+       font-size:14px;
+        width:128px;
+        height:46px;
+        line-height: 46px;
+    }
+    .tabs>li{
+      float:left;
+      border-bottom:1px solid #dededc;
+      border-right:2px solid #dededc;
+      
+    }
+    .tabs>.active{
+      border-top:1px solid #85c226;
+     
+      border-bottom:0;
+      background-color:#fff;
+    }
+    .tabs>.active>a{
+       
+         color:#85c226;
+    }
+
+    /* 登录主要内容区 */
+    .my-big{
+        /* border:1px solid #dededc; */
+        display:flex;
+        width:100%;
+        /* float:left; */
+        display:inline-block;
+        background-color:#eee;
+        text-align:center;
+    }
+    .my-login{
+        width:488px;
+        height:311px;
+        text-align:left;
+        display:inline-block;
+         border-right:1px dashed #afafaf;
+    }
+    
+    .lo-text{
+        font-size:18px;
+        color:#9acf16;
+        margin:5px 0;
+    }
+    .lo-text1{
+        font-size:12px;
+        color:#959595;
+        margin-bottom:15px;
+    }
+    .inp-txt{
+        border:0;
+        height:19px;
+        background:#eee;
+        outline:0;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+    }
+    span{
+        color:#959595;
+        font-size:12px;
+    }
+    .put{
+        width:435px;
+        height:66px;
+        line-height:40px;
+        vertical-align:middle;
+        /* text-align:center; */
+
+    }
+    .bt{
+        width:435px;
+        height:40px;
+        border:0;
+        background-color:#85c226;
+        color:#fff;
+        margin:10px 0;
+        cursor:pointer;
+    }
+    .my-login a{
+        font-size:12px;
+        color:#79a3c4;
+        text-decoration: none;
+        float:right;
+    }
+    .notice{
+        display:inline-block;
+        width:437px;  
+        margin-bottom:15px;
+    }
+    .notice input{
+        cursor:pointer;
+    }
+    /* 标记* */
+    .sign{
+        float:left;
+    }
+    /* qq登录 */
+    .qq-login{
+        
+        width:272px;
+        height:176px;
+        display:inline-block;
+        text-align:left;
+        margin-top:50px;
+        margin-left:50px;
+        vertical-align: top;
+    }
+    .qq-login div{
+        width:222px;
+        height:151px;
+        display:inline-block;
+        cursor:pointer;
+    }
+    .qq-login p{
+        font-size:12px;
+        height:25px;
+        line-height:25px;
+        color:#959595;
+        margin-bottom:25px;
+        display:inline-block;
+    }

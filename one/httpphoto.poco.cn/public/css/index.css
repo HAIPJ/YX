@@ -1,0 +1,280 @@
+
+/* .my_header{
+    width:100%;height:96px;
+} */
+/* .ht{
+    position:fixed;
+    width:100%;
+    opacity:1;
+    z-index:2;
+
+    } */
+
+.my_footer{
+    width:100%;
+    height:588px;
+    
+
+}
+.od{
+height:100px;}
+/* .carousel-controls-prev,.carousel-controls-next{
+    width:4%;height:20%;
+    background:#aaa;
+    border-radius:0.25rem;
+    top:40%;
+}; */
+/* 轮播图导标 */
+.carousel-indicators li{
+    width:0.75rem;height:0.75rem;
+    background:#a9e8e6;
+    border-radius:50%;
+    border:2px solid #a9e8e6;
+    margin:10px ;
+    animation-duration:1s;
+};
+.carousel-indicators .active{
+    background-color:#0aa1ed;
+};
+
+
+/* img{
+    height:23.87rem !important;width: 110rem !important;
+} */
+
+.bg{
+    width:131px;height:131px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* background-image:url("../img2/1_n6zx.png");
+    background-repeat:no-repeat; */
+}
+.bgm{
+    width:131px;height:131px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("../img2/1_n6zx.png");
+    background-repeat:no-repeat;
+}
+
+.fonts{
+    font-size:12px;
+    color:#5a5a5a;
+}
+.fonth{color:#2F80D4}
+.fontp{color:#0066cc}
+.fon{
+    color:#4ecdc4;
+    font-size:66px;
+}
+.fontsp{
+    color:#4ecdc4;
+    font-size:40px;
+}
+.imgs{
+    position:relative;
+}
+.im{
+    opacity:0;
+    position:absolute;
+    position:top
+}
+.im:hover{
+    opacity:1;
+}
+a:hover{
+    text-decoration:none;
+}
+.hove{
+    color:#5a5a5a
+}
+.hove:hover{
+    color:#47cdff
+}
+.st{
+    font-size:33px;
+    color:#666666;
+    margin:0 auto;
+
+}
+
+/* 轮播图上文字 */
+/* .ldp{
+    position:absolute;
+    widows: 200px;height:50px;
+    top:50%;left:50%;
+    margin-left:-400px;
+    margin-top:-50px;
+    opacity:1;
+
+}
+.psd{
+    font-size:48px;
+}
+.sd1{
+    color:#fff;
+}
+.sd2{color:#2cc9c9}
+.psd1{
+    font-size:16px;
+    color:#fff;
+}
+.psd2{
+    font-size:18px;
+    color:#fff
+} */
+/* #ldp1{
+    position:absolute;
+    widows: 200px;height:50px;
+    top:50%;left:50%;
+    margin-left:-400px;
+    margin-top:-50px;
+    opacity:1;
+
+}
+#psd5{
+    font-size:48px;
+}
+#sd3{
+    color:#fff;
+}
+#sd4{color:#2cc9c9}
+#psd3{
+    font-size:16px;
+    color:#fff;
+}
+#psd4{
+    font-size:18px;
+    color:#fff
+} */
+/* 大屏 */
+  @media screen and (min-width:992px){
+    #img1{
+        height:23.87rem;width: 110rem;
+    }
+    #ldp1{
+        position:absolute;
+       width:600px; height:50px;
+        top:50%;left:50%;
+        margin-left:-200px;
+        margin-top:-50px;
+        opacity:1;
+    
+    }
+    #psd5{
+        font-size:48px;
+    }
+    #sd3{
+        color:#fff;
+    }
+    #sd4{color:#2cc9c9}
+    #psd3{
+        font-size:16px;
+        color:#fff;
+    }
+    #psd4{
+        font-size:18px;
+        color:#fff
+    }
+
+  }
+  /* 中屏 */
+  @media screen and (min-width:767px){
+    #img1{
+        width: 42rem ;
+        height:15rem ;
+    }
+    #ldp1{
+        height:50px;
+        position:absolute;
+        top:50%;left:50%;
+        margin-left:-300px;
+        margin-top:-15px;
+        opacity:1;
+    
+    }
+     #psd5{
+        font-size:36px;
+    }  
+    #sd3{
+        color:#fff;
+    }
+    #sd4{color:#2cc9c9}
+    #psd3{
+        font-size:16px;
+        color:#fff;
+    }
+    #psd4{
+        font-size:18px;
+        color:#fff
+    }
+  }
+  /* 小屏 */
+  @media screen and (max-width:767px){
+    #img1{
+        height:10rem;width: 110rem;
+    }
+    #ldp1{
+        height:50px;
+        position:absolute;
+        top:50%;left:50%;
+        margin-left:-230px;
+        margin-top:-50px;
+        opacity:1;
+    
+    }
+    #psd5{
+        font-size:25px;
+    }
+    #sd3{
+        color:#fff;
+    }
+    #sd4{color:#2cc9c9}
+    #psd3{
+        font-size:12px;
+        color:#fff;
+    }
+    #psd4{
+        font-size:18px;
+        color:#fff
+    }
+  }
+  
+
+/* 3业界资讯 */
+.dmg{overflow:hidden;}
+.bo{ 
+    border-left:4px solid #4ecdc4;
+    padding-left:10px;
+    color:#4ecdc4;
+    font-size:18px;
+}
+.cd{
+    color:#4ecdc4;
+    font-size:14px;
+}
+.cd:hover{
+    color:#0064d4;
+}
+.cw{
+    color:#5A5A5A;
+    font-size:14px;
+}
+.ct{
+    color:#ACACAC;
+    font-size:12px;
+}
+.ch{
+    color:#5A5A5A;
+    font-size:12px;
+}
+.li{
+    list-style:none;
+    border-bottom:1px dashed #dee2e6;
+}
+a:hover{
+    text-decoration:none;
+    color:#4ecdc4;
+}

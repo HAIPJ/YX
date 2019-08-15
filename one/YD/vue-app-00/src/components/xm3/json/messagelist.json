@@ -1,0 +1,20 @@
+{
+  "data":[
+    {
+      "id":1,
+      "img":"../../../assets/ic_tag.png"
+    },
+    {
+      "id":2,
+      "img":"../../assets/ic_new_friends.png"
+    },
+    {
+      "id":3,
+      "img":"../../assets/a_7.png"
+    },
+    {
+      "id":4,
+      "img":"../../assets/a_7.png"
+    }
+  ]
+}

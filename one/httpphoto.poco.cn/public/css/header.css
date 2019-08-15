@@ -1,0 +1,60 @@
+.one{width:8rem};
+.tow{width:12.5rem};
+/* 样式修改 */
+.navbar-dark .navbar-brand {
+    color: #666666;
+  }
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #666666;}
+ 
+
+/* a标签触发样式 */
+ .lbj:hover{
+    color:#ffffff;
+    background-color:#4ecdc4;
+    text-decoration:none;
+
+}
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color:#666
+}
+a{
+    color:#5a5a5a;
+    font-size:14px;}
+a:hover{
+    color:#ffffff;
+    background-color:#4ecdc4;
+     text-decoration:none; 
+     
+} 
+.cf:hover{
+    color:#ffffff;
+    background-color:#5a5a5a;
+    text-decoration:none;
+}
+/* a:visited{color:orange;} */
+/* 按钮颜色 */
+.bj{
+    background:#5a5a5a
+}
+/* .ab:active{
+    color:#666
+} */
+ /* 大屏 */
+ @media screen and (min-width:992px){
+    .one{width:8rem};
+    .tow{width:70%};
+ }
+ /* 中屏 */
+ @media screen and (min-width:768px){
+    .one{width:8rem};
+    .tow{width:12rem};
+ }
+ /* 小屏 */
+ @media screen and (max-width:767px){
+     .one{width:8rem};
+ .tow{width:10%};
+}
